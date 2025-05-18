@@ -5,7 +5,7 @@ setInterval(() => {
  
   paragraphs.forEach(paragraph => {
 
-    if (paragraph.textContent.includes('ٰٰ')) {
+    if (paragraph.textContent.includes('&&:')) {
       paragraph.classList.add('moh');
     }
  $("#users .uzr.moh span.uhash,.active.moh fl.ustat,#users .uzr.moh img.co,#users .uzr.moh .ustat,.fl.mini.u-co").hide(); 
@@ -16,22 +16,6 @@ setInterval(() => {
 
     
 $("style").last().append(` 
-#users .uzr.moh .fitimg.u-pic { 
-  border-radius: 4px 4px 4px 4px!important; 
-   margin-left: 8px!important;
-  margin-top: 6px!important;
-  height: 57px!important;
-   perspective: 500px!important;
-     ransform-style: preserve-3d!important;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.2),
-              -2px -2px 4px rgba(255,255,255,0.4)!important;
-   margin: 0 auto;
-border-bottom:2px solid;
-     margin-bottom:2px;
-     border-top:2px solid;
-     margin-top:2px;
-     border-color:#bababa
-} 
 #users .uzr.moh .mini.u-msg {
     width: 170px!important;
     font-size: 14px!important;
@@ -62,5 +46,20 @@ border-bottom:2px solid;
 #users .uzr.moh .u-topic { 
   margin-left: 5px; 
 } 
- 
+ #users .uzr.moh .fitimg.u-pic { 
+  border-radius: 4px 4px 4px 4px!important; 
+   margin-left: 8px!important;
+  margin-top: 6px!important;
+  height: 57px!important;
+   perspective: 500px!important;
+     ransform-style: preserve-3d!important;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2),
+              -2px -2px 4px rgba(255,255,255,0.4)!important;
+   margin: 0 auto;
+border-bottom:2px solid;
+     margin-bottom:2px;
+     border-top:2px solid;
+     margin-top:2px;
+     border-color:#bababa
+} 
 `);
